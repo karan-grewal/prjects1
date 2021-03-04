@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<style>
+  body {
+    background-color:black;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: sans-serif;
+  }
+  button {
+    padding: 20px 50px;
+    outline: none;
+    background:red;
+    border: 2px solid magenta;
+    color:aqua;
+    font-size: 20px;
+    transition : 0.2s;
+  }
+  button:hover {
+     
+    border-color: blue;
+    color: white;
+    transition: 0.2s;
+    box-shadow: 0px 8px 16px 0px rgba(0, 255, 85, 0.4);
+    transform: translateY(-40%);
+  
+  }
+  
+</style>
+<body>
+    <div class="center"><button>hover</button></div>
+</body>
+</html>
